@@ -1,0 +1,1411 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f7f4;
+}
+
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(230, 231, 231);
+    display: flex;
+    position: relative;
+}
+
+.left{
+    height: 100%;
+    width: 25%;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left h1{
+    font-family: "Allura", cursive;
+    cursor: pointer;
+}
+
+.icon{
+    /* font-size: 2vw; */
+    display: none;
+}
+
+.left h1:hover{
+    color: #383650;
+}
+
+.mid{
+    height: 100%;
+    width: 40%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid a{
+    text-decoration: none;
+    color: black;
+    margin-right: 2vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.mid a:hover{
+    color: gray;
+}
+
+.mid i{
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
+
+.abc{
+    display: none;
+}
+
+.designer-box{
+    height: 23vh;
+    width: 18%;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 24.8%;
+    border-radius: 10px;
+    padding: 1vw;
+    color: grey;
+    cursor: pointer;    
+    display: none;
+}
+
+.right{
+    height: 100%;
+    width: 35%;
+    /* background-color: lightpink; */
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+}
+
+.right input{
+    padding: .8vw 2vw;
+    border-radius: 20px;
+    border: none;
+    margin-right: 1.5vw;
+    position: relative;
+}
+
+
+.right p{
+    font-size: 1.2vw;
+    margin-right: 1.5vw;
+    font-weight: 500;
+}
+
+.right p:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.btn{
+    padding: .8vw 1vw;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #1f1d3e;
+}
+
+
+.design{
+    height: fit-content;
+    width: 100%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.design p{
+    margin-top: 6vw;
+    padding: .8vw 1.2vw;
+    background-color: #ffd487;
+    border-radius: 25px;
+    margin-bottom: 2vw;
+    cursor: pointer;
+
+}
+
+.design h2{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    line-height: 4vw;
+    font-size: 3.6vw;
+    text-align: center;
+    margin-bottom: 2vw;
+    font-weight: 600;
+}
+
+.design h5{
+    font-size: 1.4vw;
+    font-weight: 500;
+    margin-bottom: 1.5vw;
+
+}
+
+.start{
+    padding: 1vw 1.3vw;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 2vw;
+    margin-top: .5vw;
+}
+
+.start:hover{
+    background-color: #1f1d3e;
+}
+
+
+
+.products{
+    height: 55vh;
+    width: 100%;
+    /* background-color: lightpink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    height: 95%;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+
+.swiper-wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: cornflowerblue; */
+}
+
+.card{
+    height: 100%;
+    width: 19% !important;
+    background-color: crimson;
+     background-image: url(https://cdn.dribbble.com/uploads/47170/original/cd3266dde4f00a5d6a509c7375ddaecd.png?1685644840&format=webp&resize=400x498&vertical=center);
+     background-position: center;
+     background-size: cover;
+     border-radius: 10px;
+     display: flex !important;
+     justify-content: flex-end;
+     flex-direction: column;
+}
+
+.up-card h4{
+    margin: .2vw 0 0 1vw;
+    font-size: 1vw;
+    color: white;
+    font-weight: 400;
+    
+}
+
+.paragraph{
+    display: flex;
+}
+
+.paragraph p{
+    color: white;
+    font-size: 1vw;
+    margin: .5vw .5vw .5vw 0;
+    padding: .2vw .7vw;
+    background-color:  transparent;
+    border-radius: 20px;
+    /* border: none; */
+    border: .2px solid #ffff;
+}
+
+.card2{
+    background-image: url(https://i.pinimg.com/474x/81/30/02/8130022a6eb9d6d2c8978b805e188a8d.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+.card3{
+    background-image: url(https://i.pinimg.com/474x/d2/0a/07/d20a0742e4fc1831d19d1f45d625939b.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+.card4{
+    background-image: url(https://i.pinimg.com/474x/b3/f8/a9/b3f8a9ffb414e67cc998f6a5ae244dcd.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+.card5{
+    background-image: url(https://i.pinimg.com/474x/31/b0/e8/31b0e894fea18d9f8113a0475c565ada.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+
+.card6{
+    background-image: url(https://i.pinimg.com/474x/ed/c8/2c/edc82cb163f9adb1a0dcc37f1d48f0d9.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+.card7{
+    background-image: url(https://i.pinimg.com/474x/1f/8f/db/1f8fdb7a28650d64e6b37deae9073e92.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+.card8{
+    background-image: url(https://i.pinimg.com/474x/c2/db/0e/c2db0eac6e783a936081bfe8dcd45806.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+.card9{
+    background-image: url(https://i.pinimg.com/474x/57/c1/4e/57c14e92d7a89b3e805df7f1ba077997.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+.card10{
+    background-image: url(https://i.pinimg.com/474x/44/06/0a/44060abd322aef05ee4d26444676fcf6.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+.card11{
+    background-image: url(https://i.pinimg.com/474x/e8/32/a2/e832a27d3a4cad7697dc5a4d32274d22.jpg);
+     background-position: center;
+     background-size: cover;
+}
+.card12{
+    background-image: url(https://i.pinimg.com/474x/bc/bc/32/bcbc326202b15bcc99285d183a239bc2.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+
+.explore h1{
+    margin-top: 1.8vw;
+    font-size: 3.5vw;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+.img-container{
+    height: 50vh;
+    width: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 2vw;
+    margin-top: 2vw;
+}
+
+.container-left{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(84, 215, 224); */
+}
+
+.container-mid{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(84, 156, 224); */
+}
+
+
+.container-right{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(103, 84, 224); */
+}
+
+.container-top{
+    height: 83%;
+    width: 100%;
+    border-radius: 10px;
+    /* background-color: yellow; */
+    background-image: url(https://cdn.dribbble.com/userupload/15697966/file/still-330d0a702330d44b57b7624af6c0854d.png?resize=640x480&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-bottom{
+    height: 16%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    margin-top: 1vw;
+}
+
+.img-box{
+    height: 80%;
+    width: 10%;
+    /* background-color: violet; */
+    background-image: url(https://cdn.dribbble.com/users/11502486/avatars/small/a8456497e26e27118763af6fc5b5fbcc.png?1650726363);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-bottom p{
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+
+.text{
+    height: 100%;
+    width: fit-content;
+    margin-left: .8vw;
+    padding-top: .5vw;
+}
+
+.team{
+    height: 100%;
+    width: fit-content;
+    /* background-color: cornflowerblue; */
+    margin-left: .5vw; 
+    padding-top: .5vw;
+
+}
+
+.team p:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.team p{
+    background-color: #cccccc;
+    padding: 0 .3vw;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+}
+
+.like{
+    height: 100%;
+    width: 14%;
+    /* background-color: deeppink; */
+    margin-left: 7vw;
+    padding-top: .5vw;
+    display: flex;
+}
+
+.like i:hover{
+   cursor: pointer;
+   color: red;
+}
+
+.like p{
+    padding-left: .3vw;
+}
+
+.views{
+    height: 100%;
+    width: 15%;
+    /* background-color: gold; */
+    padding-top: .5vw;
+    display: flex;
+}
+
+.views p{
+    padding-left: .3vw;
+}
+
+.mid1{
+    background-image: url(https://cdn.dribbble.com/userupload/15813183/file/original-0a9c16182bcb3d79eb0dd7408d933f6c.jpg?crop=196x147-1400x1053&resize=640x480&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid2{
+    background-image: url(https://cdn.dribbble.com/users/13604/avatars/small/3dda8552f1fb7d68a27c34315336a72f.png?1685810951);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.right1{
+    background-image: url(https://cdn.dribbble.com/userupload/15813489/file/original-9784c3910b8ae034233dc1730426afbd.jpeg?resize=640x480&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right2{
+    background-image: url(https://cdn.dribbble.com/users/6454839/avatars/small/a615730b861d93eaebc6a7c1ec276489.jpg?1622535470);
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.left11{
+    background-image: url(https://cdn.dribbble.com/userupload/15816583/file/still-2d757b2fcf4076d340eb09dbbf3971e8.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left12{
+    background-image: url(https://cdn.dribbble.com/users/1154620/avatars/small/692333065852d7613835cccc455a0208.png?1718129658);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid11{
+    background-image: url(https://cdn.dribbble.com/userupload/15817645/file/original-e0c47682e5ee4a0e23af1fbd8d15b9ed.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid12{
+    background-image: url(https://cdn.dribbble.com/users/466659/avatars/small/faff973d070ece355f9ac1280b5aa1c9.png?1697203398);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right11{
+    background: url(https://cdn.dribbble.com/userupload/15783016/file/original-243b4adb8b4fdbb5c07299098934d068.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right12{
+    background: url(https://cdn.dribbble.com/users/59947/avatars/small/5ed2865a861fcd2bc9f9d9aff7600f8b.jpg?1574070463);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.left21{
+    background-image: url(https://cdn.dribbble.com/userupload/15822903/file/original-a9f34ec024dc93e70ecba7ac2c732611.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left22{
+    background-image: url(https://cdn.dribbble.com/users/52084/avatars/small/692992651656234d8bddb5823a090f98.jpg?1510596786);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid21{
+    background-image: url(https://cdn.dribbble.com/userupload/15823862/file/original-e971654a5db8a4b61ad03c95dd8036f3.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid22{
+    background-image: url(https://cdn.dribbble.com/users/60266/avatars/small/f94db808e77a52d9c53842d49c04dd9a.jpg?1704391053);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right21{
+    background: url(https://cdn.dribbble.com/userupload/15810118/file/original-9ff2ece338df717206993b97eda53715.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right22{
+    background: url(https://cdn.dribbble.com/users/1247975/avatars/small/7b9a3bf4fda1996d6e9536ade6d949b6.png?1576617778);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.left31{
+    background-image: url(https://cdn.dribbble.com/userupload/15822382/file/original-2267070781935320e76c72d4b7798924.jpg?crop=0x99-1001x850&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left32{
+    background-image: url(https://cdn.dribbble.com/users/44323/avatars/small/8d6cf98c085c2b93e185deb26b1771a5.jpg?1532120757);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid31{
+    background-image: url(https://cdn.dribbble.com/userupload/15819347/file/original-c6948e0fa45984d06587eb1853ed62ec.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid32{
+    background-image: url(https://cdn.dribbble.com/users/110372/avatars/small/8103347774c6a50096789a1fb02edf5d.png?1588232430);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right31{
+    background: url(https://cdn.dribbble.com/userupload/15719217/file/original-86e3fcc2d0cec3f6390dc2c35471cb0a.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right32{
+    background: url(https://cdn.dribbble.com/users/414899/avatars/small/fc12e2f8f542a52abd94590de3836499.png?1617890437);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.left41{
+    background-image: url(https://cdn.dribbble.com/userupload/15814902/file/original-ef7b22a69763bea05a9f36c51a137392.jpg?crop=1080x1022-3079x2521&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left42{
+    background-image: url(https://cdn.dribbble.com/users/81216/avatars/small/5687c734b55961ddf1f053fb19c27b8d.jpg?1441567267);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid41{
+    background-image: url(https://cdn.dribbble.com/userupload/15449277/file/original-5c172c18b033f22985dfe66e1065f217.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid42{
+    background-image: url(https://cdn.dribbble.com/users/36012/avatars/small/4aa2861319ba4582f2cdf49b5c4e01d0.png?1708641470);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right41{
+    background: url(https://cdn.dribbble.com/userupload/15813183/file/original-0a9c16182bcb3d79eb0dd7408d933f6c.jpg?crop=196x147-1400x1053&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right42{
+    background: url(https://cdn.dribbble.com/users/414899/avatars/small/fc12e2f8f542a52abd94590de3836499.png?1617890437);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
+
+
+.left51{
+    background-image: url(https://cdn.dribbble.com/userupload/15825776/file/original-e7606b905bcdddbcd24e2bcc842ee2e2.jpg?crop=597x0-3506x2182&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left52{
+    background-image: url(https://cdn.dribbble.com/users/642843/avatars/small/b4abb296072e77e7728098ae232a2513.jpg?1722285898);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid51{
+    background-image: url(https://cdn.dribbble.com/userupload/15822931/file/original-222cae1cff98524c91ab4773062a2f33.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid52{
+    background-image: url(https://cdn.dribbble.com/users/257123/avatars/small/557ad099b68debee3ce95d4adaa271d9.jpg?1706266927);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right51{
+    background: url(https://cdn.dribbble.com/userupload/15817769/file/original-781298cdef282291a128f909eaa68c3d.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right52{
+    background: url(https://cdn.dribbble.com/users/2554837/avatars/small/90522438af4feba5ef21fe54cc40fec4.png?1559397767);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
+
+
+.left61{
+    background-image: url(https://cdn.dribbble.com/userupload/15813509/file/original-4a364585d8c798c980f9a9c01c92e945.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left62{
+    background-image: url(https://cdn.dribbble.com/users/1057940/avatars/small/72c37f05348c039f280aa42765461db8.png?1705573110);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid61{
+    background-image: url(https://cdn.dribbble.com/userupload/15821121/file/original-adc4f64054d5460181ddc1b74dfaefdb.jpg?crop=497x0-4500x3002&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid62{
+    background-image: url(https://cdn.dribbble.com/users/15184955/avatars/small/436ba6bf09078258bbec562386e2b4ab.jpg?1708336644);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right61{
+    background: url(https://cdn.dribbble.com/userupload/15818222/file/original-d1407f03b8b5baa5bacab767313400e6.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right62{
+    background: url(https://cdn.dribbble.com/users/1008875/avatars/small/0a1ed5e8cf9a5b66164b7acf40834aff.jpg?1694886369);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.left71{
+    background-image: url(https://cdn.dribbble.com/userupload/15817164/file/original-27ab2fdfe9e74ea26a0c00a0287ba148.jpeg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left72{
+    background-image: url(https://cdn.dribbble.com/users/903526/avatars/small/1eefc4d1f0a4cca22e677f6bd97d2270.jpeg?1695692879);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid71{
+    background-image: url(https://cdn.dribbble.com/userupload/15817502/file/original-6797b39a4364a5e5420843c0cb38ae12.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid72{
+    background-image: url(https://cdn.dribbble.com/users/458522/avatars/small/07b9b0f65924ef9cfffa9c7ad6b03fc7.png?1665138088);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right71{
+    background: url(https://cdn.dribbble.com/userupload/15812839/file/original-b016bb52dc8d4d5bd026972b3f9f7ada.png?crop=0x0-2560x1920&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right72{
+    background: url(https://cdn.dribbble.com/userupload/15812839/file/original-b016bb52dc8d4d5bd026972b3f9f7ada.png?crop=0x0-2560x1920&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.img-last{
+    margin-bottom: 2vw;
+}
+
+       
+.browser{
+    height: 10vh;    
+    width: 100%;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw;
+
+}
+
+.browser button{
+    padding: 1.2vw 1.2vw;
+    border-radius: 50px !important;
+    border: 1.2px solid black;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.browser button:hover{
+    cursor: pointer;
+    background-color: #cccccc;
+}
+
+.designer{
+    height: 75vh;
+    width: 100%;
+    background-color: #ffda79;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.designer h1{
+    font-size: 4vw;
+    font-weight: 500;
+    padding-bottom: 1.7vw;
+
+}
+
+.designer p{
+    text-align: center;
+    font-size: 1.6vw;
+    line-height: 2.5vw;
+    font-weight: 400;
+    padding-bottom: 2vw;
+}
+.butn{
+    /* background-color: violet; */
+    width: 100%;
+    height: fit-content;
+   padding-left: 34vw;
+   
+    
+}
+.butn button{
+  padding: 3vh;
+    border-radius: 50px;
+    width: 20%;
+    border: 1px solid black;
+    margin: 0 1vw;
+    
+}
+
+.butn button:hover{
+    cursor: pointer;
+    background-color: #cfc4c4;
+}
+
+.words{
+   height: 4vw;
+    /* background-color: rgb(0, 255, 183); */
+    position: absolute;
+    /* width: 100%; */
+    top: 673.9%;
+    right: 40%;
+}
+
+.words p{
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+.words a{
+    color: #1f1d3e;
+}
+
+.last-slide{
+    height: 40vh;
+    width: 100%;
+    /* background-color: lightgreen; */
+    margin-top: 4vw;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.last-card{
+    height: 100%;
+    width: 15%;
+    /* background-color: lightpink; */
+    
+}
+
+.last-up-card{
+    height: 85%;
+    width: 100%;
+    /* background-color: plum; */
+    border-radius: 8px;
+}
+
+.last-down-card{
+    height: 15%;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.last-down-card p{
+    padding-top: .3vw;
+    font-size: 1.2vw;
+}
+
+.content{
+    height: 20vh;
+    width: 100%;
+    background-color: pink;
+}
+
+.up1{
+    background-image: url(https://cdn.dribbble.com/userupload/15612968/file/original-a21142e6f2304ad9cf384c2b564a921a.jpg?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up2{
+    background-image: url(https://cdn.dribbble.com/userupload/15654170/file/original-2d5f19ba7f07a16c2540cd69d0a3f359.png?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up3{
+    background-image: url(https://cdn.dribbble.com/userupload/15675758/file/original-1d4e70ff6841cb39ef37b0734234e0b6.png?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up4{
+    background-image: url(https://cdn.dribbble.com/userupload/15513358/file/original-e464997417cf6d491eb6c4f633293e22.png?crop=0x0-2401x1801&format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up5{
+    background-image: url(https://cdn.dribbble.com/userupload/15675758/file/original-1d4e70ff6841cb39ef37b0734234e0b6.png?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up6{
+    background-image: url(https://cdn.dribbble.com/userupload/15513358/file/original-e464997417cf6d491eb6c4f633293e22.png?crop=0x0-2401x1801&format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up7{
+    background-image: url(https://cdn.dribbble.com/userupload/15743138/file/still-e883d6e33a1bfdf9de7c492985d90866.png?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up8{
+    background-image: url(https://cdn.dribbble.com/userupload/15654170/file/original-2d5f19ba7f07a16c2540cd69d0a3f359.png?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+.up9{
+    background-image: url(https://cdn.dribbble.com/userupload/15719732/file/original-f1eeffa89939d39eed1b01d202b89b35.png?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.dribble-content{
+     height: 10vh;
+     width: 100%;
+     /* background-color: fuchsia; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 2.5vw;
+}
+
+.main-div{
+    /* height: 100%; */
+    width: 10%;
+    /* background-color: red; */
+    margin-right: 5.5vw;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.main-div h1{
+        font-family: "Allura", cursive;
+        cursor: pointer;
+}
+
+.dribble-content a{
+    padding-right: 1.5vw;
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+.Support{
+    margin-right: 5vw;
+    /* background-color: darkmagenta; */
+}
+
+.social-media{
+    margin-right: 8vw !important;
+    /* background-color: darkblue; */
+}
+
+.social-media i{
+    margin-right: 1vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.footer{
+    height: 12vh;
+    width: 100%;
+    /* background-color: lawngreen; */
+    display: flex;
+    padding-top: 2vw;
+    color: #cccccc;
+    padding: 2vw 2vw 0 2vw;
+
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 1.1vw;
+    padding-right: 1vw;
+    color: #383650;
+}
+
+.start-div{
+    width: 50%; 
+    /* background-color: yellow; */
+ }
+ 
+
+.end-div{
+   width: 50%; 
+   /* background-color: red; */
+   display: flex;
+   justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1px) and (max-width: 425px){
+
+    .icon{
+        display: flex;
+        font-size: 7vw;
+        padding-right: 2vw;
+    }
+
+    .mid{
+        /* display: none; */
+    }
+    
+    .btn{
+        padding: 3vw 3.5vw;
+    }
+
+    .btn {
+        margin-left: auto;
+        flex: 0 0 auto;
+    }
+
+
+    .right input{
+        display: none;
+    }
+
+    .right p{
+        display: none;
+    }
+    
+    .left{
+        width: 50%;
+        padding: 2vw 0 0 0;
+    }
+
+    .left h1{
+     font-size: 8vw;
+     margin-left: 1vw;
+
+    }
+
+    .right {
+        display: block;
+    }
+    .btn {
+        padding: 3vw 4vw;
+        margin-top: 4vw;
+        margin-left: 2.5vw;
+        float: left;
+    }
+
+    .mid{
+        width: 15%;
+    }
+
+
+    
+    .mid a{
+        display: none;
+    }
+
+    .mid i{
+    font-size: 7vw;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
+    }
+    
+    .abc{
+        display: flex;
+        font-size: 8vw;
+    }
+
+    .design p{
+        margin-top: 13vw;
+        margin-bottom: 5vw;
+    }
+
+    .design h2{
+        width: 60%;
+        font-size: 9vw;
+        line-height: 11vw;
+        font-weight: 500;
+    }
+
+    .design h5{
+        margin-top: 3vw;
+        font-size: 5vw;
+        width: 85%;
+        line-height: 7vw;
+        text-align: center;
+    }
+
+    .start{
+        margin-top: 4vw;
+        padding: 4vw 3vw;
+    }
+
+    .card{
+        width: 100% !important;
+    }
+
+    .swiper-wrapper{
+        width: 80% !important;
+    }
+
+    .up-card h4{
+        margin: 0 0 1vw 4vw;
+        font-size: 4vw;
+    }
+
+    .paragraph p{
+        font-size: 3vw;
+        margin: 2vw 0 3vw 4vw;
+    }
+     
+    .explore{
+        display: flex !important;
+        justify-content: center!important;
+    }
+    .explore h1{
+        margin-top: 4vw;
+        font-size: 9vw;
+        width: 90%;
+        line-height: 10vw;
+    }
+
+    .img-container{
+        height: 120vh!important;
+        width: 100% !important;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-left{
+        width: 100%;
+    }
+     
+    .container-top{
+        width: 95%;
+    }
+    .container-bottom{
+        width: 100% !important;
+        margin-top: 2vw;
+    }
+
+    .container-mid{
+        width: 100% !important;
+        margin-top: 1vw;
+    }
+
+    .container-right{
+        width: 100% !important;
+        margin-top: 1vw;
+    }
+
+    .img-container p{
+        font-size: 4vw;
+    }
+
+    .text{
+        padding-left: 2vw;
+    }
+
+    .team{
+        padding-left: 2vw;
+    }
+
+    .like{
+        padding-left: 3vw;
+    }
+
+    .views{
+        padding-left: 4vw;
+    }
+
+    .browser button{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        padding: 4vw 2vw !important;
+    }
+
+    .designer{
+        height: 60vh;
+    }
+
+    .designer h1{
+        font-size: 10vw;
+        font-weight: 300;
+    }
+
+    .designer p{
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        width: 80%;
+        text-align: center;
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+
+    .butn{
+        /* display: flex; */
+        flex-direction: column;
+        padding-right: 4vw;
+
+    }
+
+    .butn button,button{
+      
+      width: 70%;
+       height: fit-content;
+       margin: 1vw 0;
+       padding: 4vw 3.2vw;
+      
+     
+    }
+    .words {
+     display: none;
+        
+    }
+
+    
+    .last-slide{
+        margin-top: 5vw;
+    }
+
+    .wrapp{
+        width: 80%;
+    }
+
+    .last-down-card p{
+        font-size: 4vw;
+        font-weight: 500;
+    }
+
+
+    .last-down-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dribble-content{
+        display: flex;
+        flex-direction: column;
+        /* background-color: blueviolet; */
+        height: 15vh;
+    }
+
+    .dribble-content a{
+        font-size: 3.5vw;
+        font-weight: 550;
+    }
+
+
+    .hire{
+        width: 85%;
+        /* background-color: darkorange; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .adv{
+        margin-top: 2vw;
+        width: 85%;
+        /* background-color: darkorange; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-media{
+        width: 28%;
+        /* background-color: darkorange; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vw;
+        justify-content: space-between;
+
+    }
+    
+    .social-media i{
+        font-size: 5vw;
+    }
+   
+
+    .footer{
+        margin-top: 2vw;
+        height: 9vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer a,i{
+        font-size: 3.5vw;
+        font-weight: 400;
+        color: #1f1d3e;
+    }
+
+    .start-div{
+        /* background-color: rgb(103, 98, 98); */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .end-div{
+        margin-top: 2vw;
+      /* background-color: cornflowerblue; */
+      width: 95%;
+      display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    
+
+    
+
+    
+
+
+
+  
+}
